@@ -9,9 +9,9 @@ const Index = () => {
           <Flex justify="space-between" align="center" px={8}>
             <Text fontSize="xl" fontWeight="bold">John Doe</Text>
             <Box display={{ base: "block", md: "flex" }} justifyContent="center" alignItems="center">
-              <Link href="#about" px={3} py={1} _hover={{ textDecoration: "underline" }}><FaUser /> About</Link>
-              <Link href="#projects" px={3} py={1} _hover={{ textDecoration: "underline" }}><FaProjectDiagram /> Projects</Link>
-              <Link href="#contact" px={3} py={1} _hover={{ textDecoration: "underline" }}><FaEnvelope /> Contact</Link>
+              <Link href="#about" display="flex" alignItems="center" justifyContent="center" px={3} py={1} _hover={{ textDecoration: "underline" }}><FaUser /> About</Link>
+              <Link href="#projects" display="flex" alignItems="center" justifyContent="center" px={3} py={1} _hover={{ textDecoration: "underline" }}><FaProjectDiagram /> Projects</Link>
+              <Link href="#contact" display="flex" alignItems="center" justifyContent="center" px={3} py={1} _hover={{ textDecoration: "underline" }}><FaEnvelope /> Contact</Link>
             </Box>
           </Flex>
         </Box>
