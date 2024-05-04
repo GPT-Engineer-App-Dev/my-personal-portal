@@ -3,10 +3,10 @@ import { FaHome, FaUser, FaEnvelope, FaProjectDiagram } from "react-icons/fa";
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={0}>
+    <Container maxW="full" p={0}>
       <Flex direction="column" minH="100vh">
         <Box as="header" bg="brand.800" color="white" py={4}>
-          <Flex justify="space-between" align="center" px={8}>
+          <Flex justify="space-between" align="center" px={8} w="full">
             <Text fontSize="xl" fontWeight="bold">John Doe</Text>
             <Box display={{ base: "block", md: "flex" }} justifyContent="center" alignItems="center">
               <Link href="#about" display="flex" alignItems="center" justifyContent="center" px={3} py={1} _hover={{ textDecoration: "underline" }}><FaUser /> About</Link>
@@ -30,7 +30,7 @@ const Index = () => {
           </VStack>
         </Flex>
         <Box as="footer" bg="brand.700" color="white" py={4} mt="auto">
-          <Flex justify="center">
+          <Flex justify="center" w="full">
             <Text>&copy; 2023 John Doe. All rights reserved.</Text>
           </Flex>
         </Box>
