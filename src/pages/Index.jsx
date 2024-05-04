@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <Container maxW="full" p={0}>
       <Flex direction="column" minH="100vh">
-        <Box as="header" bg="brand.800" color="white" py={4}>
+        <Box as="header" bg="brand.800" color="white" py={6}>
           <Flex justify="space-between" align="center" px={8} w="full">
             <Text fontSize="xl" fontWeight="bold">John Doe</Text>
             <Box display={{ base: "block", md: "flex" }} justifyContent="center" alignItems="center">
