@@ -1,5 +1,5 @@
 import { Box, Flex, Text, VStack, Link, Container } from "@chakra-ui/react";
-import { FaUser, FaProjectDiagram, FaEnvelope } from "react-icons/fa";
+import { FaHome, FaUser, FaEnvelope, FaProjectDiagram } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -16,17 +16,17 @@ const Index = () => {
           </Flex>
         </Box>
         <Flex direction="column" flex="1" p={8} align="center" justify="center">
-          <VStack spacing={8} as="section" id="about" minH="100vh" bg="brand.700" p={5} style={{ textShadow: '1px 1px 2px gray' }}>
-            <Text fontSize="3xl" fontWeight="bold">About Me</Text>
-            <Text textAlign="center" fontSize="lg">I'm a software developer with a passion for building beautiful and functional web applications. I have a background in computer science and over 5 years of professional experience.</Text>
+          <VStack spacing={8} as="section" id="about" minH="100vh">
+            <Text fontSize="2xl" fontWeight="bold">About Me</Text>
+            <Text textAlign="center">I'm a software developer with a passion for building beautiful and functional web applications. I have a background in computer science and over 5 years of professional experience.</Text>
           </VStack>
-          <VStack spacing={8} as="section" id="projects" minH="100vh" mt={0} bg="gray.200" borderTop="1px solid #ccc" p={5}>
-            <Text fontSize="3xl" fontWeight="bold">Projects</Text>
-            <Text textAlign="center" fontSize="lg" fontStyle="italic">Here are some of the projects I've worked on. They range from small personal projects to large-scale commercial applications.</Text>
+          <VStack spacing={8} as="section" id="projects" minH="100vh" mt={0}>
+            <Text fontSize="2xl" fontWeight="bold">Projects</Text>
+            <Text textAlign="center">Here are some of the projects I've worked on. They range from small personal projects to large-scale commercial applications.</Text>
           </VStack>
-          <VStack spacing={8} as="section" id="contact" minH="100vh" mt={0} bgGradient="linear(to-r, brand.700, brand.900)" p={5}>
-            <Text fontSize="3xl" fontWeight="bold">Contact Info</Text>
-            <Text textAlign="center" fontSize="lg" fontWeight="bold">Feel free to reach out to me via email at johndoe@example.com or follow me on LinkedIn.</Text>
+          <VStack spacing={8} as="section" id="contact" minH="100vh" mt={0}>
+            <Text fontSize="2xl" fontWeight="bold">Contact Info</Text>
+            <Text textAlign="center">Feel free to reach out to me via email at johndoe@example.com or follow me on LinkedIn.</Text>
           </VStack>
         </Flex>
         <Box as="footer" bg="brand.700" color="white" py={4} mt="auto">
