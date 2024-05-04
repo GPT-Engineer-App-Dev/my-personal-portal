@@ -8,10 +8,10 @@ const Index = () => {
         <Box as="header" bg="brand.800" color="white" py={4}>
           <Flex justify="space-between" align="center" px={8}>
             <Text fontSize="xl" fontWeight="bold">John Doe</Text>
-            <Box>
-              <Link href="#about" p={3} _hover={{ textDecoration: "underline" }}><FaUser /> About</Link>
-              <Link href="#projects" p={3} _hover={{ textDecoration: "underline" }}><FaProjectDiagram /> Projects</Link>
-              <Link href="#contact" p={3} _hover={{ textDecoration: "underline" }}><FaEnvelope /> Contact</Link>
+            <Box display={{ base: "block", md: "flex" }} justifyContent="center" alignItems="center">
+              <Link href="#about" px={3} py={1} _hover={{ textDecoration: "underline" }}><FaUser /> About</Link>
+              <Link href="#projects" px={3} py={1} _hover={{ textDecoration: "underline" }}><FaProjectDiagram /> Projects</Link>
+              <Link href="#contact" px={3} py={1} _hover={{ textDecoration: "underline" }}><FaEnvelope /> Contact</Link>
             </Box>
           </Flex>
         </Box>
